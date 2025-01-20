@@ -6,3 +6,87 @@
     box-sizing: border-box;
     font-family: "Quicksand", serif;
 }
+
+.logo {
+    height: 3.875rem;
+}
+
+.school {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.nav-container {
+    max-width: 1440px;
+    max-height: 11.625rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 102px;
+    border: none;
+}
+
+.nav-bar {
+    background-color: #F8F9FA;
+    box-shadow: none;
+    border: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links .home {
+    color: #FF9500;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav-links .about {
+    color: #00B4D8;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-links .facilities {
+    color: #00D1C7;
+    /* Cyan/Turquoise */
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-links .admission {
+    color: #7C3AED;
+    /* Purple */
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.contact-btn {
+    background: #ff9500;
+    color: white;
+    padding: 1rem 3.78rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background: #ff8500;
+}
