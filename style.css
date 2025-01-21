@@ -90,3 +90,137 @@
 .contact-btn:hover {
     background: #ff8500;
 }
+
+/* header {
+    border: none;
+} */
+
+.banner-section {
+    background-color: #F8F9FA;
+    padding: .5rem 0;
+}
+
+.banner-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 102px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.high-orange {
+    color: #FF9500;
+}
+
+.high-blue {
+    color: #00B4D8;
+}
+
+.banner-text {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.enroll-btn {
+    background-color: #000;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem 2.8rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.banner-image {
+    max-height: 575px;
+    max-width: 468px;
+    flex: 1;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        padding: 1rem 1.5rem;
+        height: auto;
+        border-bottom: 1px solid #FF9500;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-links,
+    .contact-btn,
+    .school {
+        display: none;
+    }
+
+    .logo {
+        height: 2.6rem;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .banner-text {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner-image {
+        order: -1;
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
+    }
+
+    .enroll-btn {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+    }
+}
