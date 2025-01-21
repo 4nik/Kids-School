@@ -392,6 +392,18 @@
     font-weight: bold;
 }
 
+.story-card h3, .card-left h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 1rem;
+}
+.card-left p{
+    font-size: 1rem;
+    color: #666666;
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .nav-container {
         padding: 1rem 1.5rem;
@@ -509,5 +521,17 @@
         padding: 10px 24px;
         border-radius: 50px;
         cursor: default;
+    }
+
+    .story-card h3,
+    .card-left h3 {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .card-left p {
+        font-size: 1rem;
+        color: #666666;
+        margin-top: 1rem;
     }
 }
